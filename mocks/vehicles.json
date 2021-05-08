@@ -1,0 +1,135 @@
+
+[
+  {
+    "manufacturer" : "Aston Martin",
+    "city" : "Warwickshire",
+    "country" : "England",
+    "founded": "1913"
+  },
+  {
+    "manufacturer" : "Audi",
+    "city" : "Ingolstadt",
+    "country" : "Germany",
+    "founded": "1909"
+  },
+  {
+    "manufacturer" : "BMW",
+    "city" : "Munich",
+    "country" : "Germany",
+    "founded": "1916"
+  },
+  {
+    "manufacturer" : "Cadillac",
+    "city" : "Detroit",
+    "country" : "USA",
+    "founded": "1902"
+  },
+  {
+    "manufacturer" : "Chevrolet",
+    "city" : "Detroit",
+    "country" : "USA",
+    "founded": "1911"
+  },
+  {
+    "manufacturer" : "Chrysler",
+    "city" : "Auburn Hills",
+    "country" : "USA",
+    "founded": "1925"
+  },
+  {
+    "manufacturer" : "Ferrari",
+    "city" : "Emilia-Romagna",
+    "country" : "Italy",
+    "founded": "1939"
+  },
+  {
+    "manufacturer" : "Ford",
+    "city" : "Dearborn",
+    "country" : "USA",
+    "founded": "1903"
+  },
+  {
+    "manufacturer" : "GMC",
+    "city" : "Detroit",
+    "country" : "USA",
+    "founded": "1911"
+  },
+  {
+    "manufacturer" : "Honda",
+    "city" : "Tokyo",
+    "country" : "Japan",
+    "founded": "1946"
+  },
+  {
+    "manufacturer" : "Jeep",
+    "city" : "Toledo",
+    "country" : "Ohio",
+    "founded": "1943"
+  },
+  {
+    "manufacturer" : "Kia",
+    "city" : "Seoul",
+    "country" : "South Korea",
+    "founded": "1944"
+  },
+  {
+    "manufacturer" : "Land Rover",
+    "city" : "Solihull",
+    "country" : "England",
+    "founded": "1948"
+  },
+  {
+    "manufacturer" : "Lexus",
+    "city" : "Nagoya",
+    "country" : "Japan",
+    "founded": "1989"
+  },
+  {
+    "manufacturer" : "Mazda",
+    "city" : "Hiroshima",
+    "country" : "Japan",
+    "founded": "1920"
+  },
+  {
+    "manufacturer" : "Mercedes-Benz",
+    "city" : "Stuttgart",
+    "country" : "Germany",
+    "founded": "1926"
+  },
+  {
+    "manufacturer" : "Nissan",
+    "city" : "Yokohama",
+    "country" : "Japan",
+    "founded": "1933"
+  },
+  {
+    "manufacturer" : "Porsche",
+    "city" : "Stuttgart",
+    "country" : "Germany",
+    "founded": "1931"
+  },
+  {
+    "manufacturer" : "Subaru",
+    "city" : "Shibuya",
+    "country" : "Japan",
+    "founded": "1953"
+  },
+  {
+    "manufacturer" : "Toyota",
+    "city" : "Toyota City",
+    "country" : "Japan",
+    "founded": "1937"
+  },
+  {
+    "manufacturer" : "Volkswagen",
+    "city" : "Wolfsburg",
+    "country" : "Germany",
+    "founded": "1937"
+  },
+  {
+    "manufacturer" : "Volvo",
+    "city" : "Gothenburg",
+    "country" : "Sweden",
+    "founded": "1927"
+  }
+]
