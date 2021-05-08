@@ -1,0 +1,4 @@
+.DS_Store
+video/
+.vscode
+node_modules
