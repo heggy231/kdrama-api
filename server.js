@@ -28,8 +28,9 @@ app.get('/all', (req, res) => {
       <li id="result-drama-${index}" style="display:flex; align-items:center; flex-direction:column; align-content:space-between; justify-content:center; padding:0.2rem 0.5rem">
         <a style="font-size:2rem; font-family:fantasy; background: radial-gradient(#79265059, #a24da2, transparent); padding:0.5rem 1.2rem; margin-bottom: 0.3rem; text-decoration:none; font-weight:bold; border-radius:1.75rem; cursor:pointer; color:#FFFFFF;" href="${kdrama.homeURL}">${kdrama.title}</a>
         <img style="width: 26rem; border-radius: 1.75rem;"src="${kdrama.poster}" alt="${kdrama.title}">
-        <iframe style="border-radius: 1.75rem; border:solid 1px purple; margin-top:0.5rem;" width="420" height="345" src="${kdrama.ostvideo}">
-        </iframe>
+        <video style="border-radius: 1.75rem; border:solid 1px purple; margin-top:0.5rem;" width="420" controls>
+          <source src="${kdrama.ostvideo}" type="video/mp4">
+        </video>
       </li>
     `;
   });
@@ -57,10 +58,11 @@ app.get('/channel', (req, res) => {
     }).map( (kdrama, index) => {
       return `
         <li id="result-drama-${index}" style="display:flex; align-items:center; flex-direction:column; align-content:space-between; justify-content:center; padding:0.2rem 0.5rem">
-            <a style="font-size:2rem; font-family:fantasy; background: radial-gradient(#79265059, #a24da2, transparent); padding:0.5rem 1.2rem; margin-bottom: 0.3rem; text-decoration:none; font-weight:bold; border-radius:1.75rem; cursor:pointer; color:#FFFFFF;" href="${kdrama.homeURL}">${kdrama.title}</a>
-            <img style="width: 26rem; border-radius: 1.75rem;"src="${kdrama.poster}" alt="${kdrama.title}">
-            <iframe style="border-radius: 1.75rem; border:solid 1px purple; margin-top:0.5rem;" width="420" height="345" src="${kdrama.ostvideo}">
-            </iframe>
+          <a style="font-size:2rem; font-family:fantasy; background: radial-gradient(#79265059, #a24da2, transparent); padding:0.5rem 1.2rem; margin-bottom: 0.3rem; text-decoration:none; font-weight:bold; border-radius:1.75rem; cursor:pointer; color:#FFFFFF;" href="${kdrama.homeURL}">${kdrama.title}</a>
+          <img style="width: 26rem; border-radius: 1.75rem;"src="${kdrama.poster}" alt="${kdrama.title}">
+          <video style="border-radius: 1.75rem; border:solid 1px purple; margin-top:0.5rem;" width="420" controls>
+            <source src="${kdrama.ostvideo}" type="video/mp4">
+          </video>
         </li>
       `;
     });
