@@ -4,6 +4,7 @@
     "original_title" : "시크릿 가든",
     "channel" : "sbs",
     "aired" : "2010",
+    "homeURL": "https://ko.wikipedia.org/wiki/%EC%8B%9C%ED%81%AC%EB%A6%BF_%EA%B0%80%EB%93%A0_(%EB%93%9C%EB%9D%BC%EB%A7%88)",
     "ostvideo" : "https://youtu.be/3yOJEb9MuFY",
     "bestvideo" : [ "https://youtu.be/XpL0vMv32-w", "https://youtu.be/kSlHKF086Yc" ],
     "poster" : "https://cphoto.asiae.co.kr/listimglink/6/2010121710392042992_1.jpg"
@@ -13,6 +14,7 @@
     "original_title" : "가을동화",
     "channel" : "kbs",
     "aired" : "2000",
+    "homeURL": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%9D%84%EB%8F%99%ED%99%94",
     "ostvideo" : "https://youtu.be/WFDO5QAPelw",
     "bestvideo" : "https://youtu.be/Eho3fE4UCPU",
     "poster" : "https://thumb.mt.co.kr/06/2008/12/2008121015215578058_2.jpg"
@@ -22,6 +24,7 @@
     "original_title" : "사랑의 불시착",
     "channel" : "tvN",
     "aired" : "2019",
+    "homeURL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EB%9E%91%EC%9D%98_%EB%B6%88%EC%8B%9C%EC%B0%A9",
     "ostvideo" : "https://youtu.be/Cmomc1SnXaA",
     "bestvideo" : "https://youtu.be/RhgUUVmBLwI",
     "poster" : "https://thumb.mt.co.kr/06/2019/12/2019121613152133576_1.jpg"
@@ -31,15 +34,17 @@
     "original_title" :"느낌",
     "channel" : "kbs",
     "aired" :"1994",
+    "homeURL": "https://ko.wikipedia.org/wiki/%EB%8A%90%EB%82%8C_(%EB%93%9C%EB%9D%BC%EB%A7%88)",
     "ostvideo" :"https://youtu.be/iehGgNjC-KA",
     "bestvideo" :"https://youtu.be/j1fFwiDLVn4?t=890",
-    "poster" : "https://img.theqoo.net/img/tUOuc.png"
+    "poster" : "https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Ffeeling.jpg?v=1620544193549"
   },
   {
     "title" :"Propose",
     "original_title" :"프로포즈",
     "channel" : "kbs",
     "aired" : "1997",
+    "homeURL": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%ED%8F%AC%EC%A6%88_(%EB%93%9C%EB%9D%BC%EB%A7%88)",
     "ostvideo" : "https://youtu.be/xJYOz-cboM8",
     "bestvideo" : "https://youtu.be/lWiZ_wFubzU",
     "poster" : "https://image.bugsm.co.kr/album/images/1000/95/9577.jpg"
