@@ -15,7 +15,11 @@ app.get('/heartbeats', (req, res) => {
 });
 
 app.get('/test', (req, res) => {
-  res.send('<h1>this is test!!</h1> <h1>this is test2!!</h1>');
+  res.send(`
+    <body style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/rectangle-overlay.png), url('https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Fwinter-calm-background.jpeg?v=1620561758843'); background-size: cover, cover;background-repeat: no-repeat; background-position: center; ">
+      <h1>this is test!!</h1> <h1>this is test2!!</h1>
+    </body>
+  `);
 });
 
 app.get('/all', (req, res) => {
@@ -40,9 +44,9 @@ app.get('/all', (req, res) => {
   `);
 });
 
-app.get('/kdramas', (req, res) => {
+app.get('/channel', (req, res) => {
   // console.log(req.query);
-  let dramaHTML = ["There are no more kDrama here!"];
+  let dramaHTML = ["<h1>No Korean Dramas here!</h1>---<h2>Please specify which channel by passing it through the query parameter.</h2>"];
   // res.json(kdrama)
   // search term filtering query param channel
   if(req.query.channel) {
