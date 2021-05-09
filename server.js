@@ -5,7 +5,7 @@ const app = express();
 const kdramas = require('./mocks/kdrama.json');
 const vehicles = require('./mocks/vehicles.json');
 
-// heartbeats endpoint get to check if express server is 
+// create a heartbeats endpoint get to check if express server is 
 //  sending data
 app.get('/heartbeats', (req, res) => {
   res.json({
@@ -14,9 +14,10 @@ app.get('/heartbeats', (req, res) => {
   // res.send("hi I am alive!")
 });
 
+// test to see if I could send string to res.send()
 app.get('/test', (req, res) => {
   res.send(`
-    <body style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/rectangle-overlay.png), url('https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Fwinter-calm-background.jpeg?v=1620561758843'); background-size: cover, cover;background-repeat: no-repeat; background-position: center; ">
+    <body style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/rectangle-overlay.png), url('https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Fwinter-calm-background.jpeg?v=1620561758843'); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-color: #5e6cd3b8">
       <h1>this is test!!</h1> <h1>this is test2!!</h1>
     </body>
   `);
@@ -35,7 +36,7 @@ app.get('/all', (req, res) => {
     `;
   });
   res.send(`
-    <body style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/rectangle-overlay.png), url('https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Fwinter-calm-background.jpeg?v=1620561758843'); background-size: cover, cover;background-repeat: no-repeat; background-position: center; ">
+    <body style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/rectangle-overlay.png), url('https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Fwinter-calm-background.jpeg?v=1620561758843'); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-color: #5e6cd3b8">
       <div style="display:flex; padding:.5rem 1rem; align-items:center">
         <ul style="list-style:none; display:flex; align-items:baseline; flex-wrap:wrap; justify-content:center; align-content:space-around;">
           ${dramaHTML.join("")}
@@ -72,7 +73,7 @@ app.get('/channel', (req, res) => {
     // }
   }
   res.send(`
-    <body style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/rectangle-overlay.png), url('https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Fwinter-calm-background.jpeg?v=1620561758843'); background-size: cover, cover;background-repeat: no-repeat; background-position: center; ">
+    <body style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/rectangle-overlay.png), url('https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Fwinter-calm-background.jpeg?v=1620561758843'); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-color: #5e6cd3b8">
       <div style="display:flex; padding:.5rem 1rem; align-items:center">
         <ul style="list-style:none; display:flex; align-items:baseline; flex-wrap:wrap; justify-content:center; align-content:space-around;">
           ${dramaHTML.join("")}
