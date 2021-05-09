@@ -5,7 +5,7 @@
     "channel" : "sbs",
     "aired" : "2010",
     "homeURL": "https://ko.wikipedia.org/wiki/%EC%8B%9C%ED%81%AC%EB%A6%BF_%EA%B0%80%EB%93%A0_(%EB%93%9C%EB%9D%BC%EB%A7%88)",
-    "ostvideo" : "https://youtu.be/3yOJEb9MuFY",
+    "ostvideo" : "https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Fsecret-garden.mp4?v=1620557446587",
     "bestvideo" : [ "https://youtu.be/XpL0vMv32-w", "https://youtu.be/kSlHKF086Yc" ],
     "poster" : "https://cphoto.asiae.co.kr/listimglink/6/2010121710392042992_1.jpg"
   },
@@ -15,17 +15,17 @@
     "channel" : "kbs",
     "aired" : "2000",
     "homeURL": "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%9D%84%EB%8F%99%ED%99%94",
-    "ostvideo" : "https://youtu.be/WFDO5QAPelw",
+    "ostvideo" : "https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Fautumn.mp4?v=1620545622330",
     "bestvideo" : "https://youtu.be/Eho3fE4UCPU",
     "poster" : "https://thumb.mt.co.kr/06/2008/12/2008121015215578058_2.jpg"
   },
   {
     "title" : "Crash Landing on You",
     "original_title" : "사랑의 불시착",
-    "channel" : "tvN",
+    "channel" : "tvn",
     "aired" : "2019",
     "homeURL": "https://ko.wikipedia.org/wiki/%EC%82%AC%EB%9E%91%EC%9D%98_%EB%B6%88%EC%8B%9C%EC%B0%A9",
-    "ostvideo" : "https://youtu.be/Cmomc1SnXaA",
+    "ostvideo" : "https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Fcrash-land-ost.mp4?v=1620554474123",
     "bestvideo" : "https://youtu.be/RhgUUVmBLwI",
     "poster" : "https://thumb.mt.co.kr/06/2019/12/2019121613152133576_1.jpg"
   },
@@ -35,7 +35,7 @@
     "channel" : "kbs",
     "aired" :"1994",
     "homeURL": "https://ko.wikipedia.org/wiki/%EB%8A%90%EB%82%8C_(%EB%93%9C%EB%9D%BC%EB%A7%88)",
-    "ostvideo" :"https://youtu.be/iehGgNjC-KA",
+    "ostvideo" :"https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Ffeel.mp4?v=1620558783403",
     "bestvideo" :"https://youtu.be/j1fFwiDLVn4?t=890",
     "poster" : "https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Ffeeling.jpg?v=1620544193549"
   },
@@ -45,8 +45,18 @@
     "channel" : "kbs",
     "aired" : "1997",
     "homeURL": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%ED%8F%AC%EC%A6%88_(%EB%93%9C%EB%9D%BC%EB%A7%88)",
-    "ostvideo" : "https://youtu.be/xJYOz-cboM8",
+    "ostvideo" : "https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Fpropose.mp4?v=1620557463794",
     "bestvideo" : "https://youtu.be/lWiZ_wFubzU",
     "poster" : "https://image.bugsm.co.kr/album/images/1000/95/9577.jpg"
+  },
+  {
+    "title" :"Winter Sonata",
+    "original_title" :"겨울연가",
+    "channel" : "kbs",
+    "aired" : "2002",
+    "homeURL": "https://ko.wikipedia.org/wiki/%EA%B2%A8%EC%9A%B8%EC%97%B0%EA%B0%80",
+    "ostvideo" : "https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Fwinter-sonata-hor.mp4?v=16205544484268",
+    "bestvideo" : "https://youtu.be/lWiZ_wFubzU",
+    "poster" : "https://cdn.glitch.com/cb093bfd-142f-45b3-bdb4-52ff49e0a1c2%2Fthumbnails%2Fwinter-img.jpeg?1620555129338"
   }
 ]
